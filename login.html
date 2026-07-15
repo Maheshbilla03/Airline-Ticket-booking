@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FlyTrip - Login & Signup</title>
+
+<link rel="stylesheet" href="login.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <span>Stac</span>Kly
+    </div>
+
+    <nav>
+        <a href="404.html">Home</a>
+        <a href="404.html">Flights</a>
+        <a href="404.html">Hotels</a>
+        <a href="404.html">Tickets</a>
+        <a href="404.html">Contact</a>
+    </nav>
+
+    <div class="buttons">
+        <button id="loginBtn">Login</button>
+        <button id="signupBtn">Sign Up</button>
+    </div>
+</header>
+
+<section class="hero">
+
+    <div class="left-content">
+        <h1>Book Your Dream Flight</h1>
+
+        <p>
+            Discover amazing destinations, compare prices,
+            and book flight tickets instantly.
+        </p>
+<div class="hero-buttons">
+    <a href="404.html" class="book-btn">Book Tickets</a>
+    <a href="404.html" class="explore-btn">Explore More</a>
+</div>
+
+        <div class="features">
+
+            <div class="feature">
+                <i class="fa-solid fa-plane"></i>
+                <span>500+ Flights</span>
+            </div>
+
+            <div class="feature">
+                <i class="fa-solid fa-earth-americas"></i>
+                <span>100 Countries</span>
+            </div>
+
+            <div class="feature">
+                <i class="fa-solid fa-ticket"></i>
+                <span>Best Prices</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- LOGIN FORM -->
+
+    <form class="form-box" id="loginForm">
+
+        <h2>Login Account</h2>
+
+        <div class="input-box">
+            <i class="fa fa-envelope"></i>
+            <input
+                type="email"
+                id="loginEmail"
+                placeholder="Email Address"
+                required>
+        </div>
+
+        <div class="input-box">
+            <i class="fa fa-lock"></i>
+            <input
+                type="password"
+                id="loginPassword"
+
+                placeholder="Password"
+                required>
+        </div>
+        
+<button type="submit" class="submit-btn">
+    Login
+</button>
+        <p>
+            Don't have an account?
+            <span class="switchSignup">Sign Up</span>
+        </p>
+
+    </form>
+
+    <!-- SIGNUP FORM -->
+
+    <form class="form-box hidden" id="signupForm">
+
+        <h2>Create Account</h2>
+
+        <div class="input-box">
+            <i class="fa fa-user"></i>
+            <input
+                type="text"
+                id="signupName"
+                placeholder="Full Name"
+                required>
+        </div>
+
+        <div class="input-box">
+            <i class="fa fa-envelope"></i>
+            <input
+                type="email"
+                id="signupEmail"
+                placeholder="Email"
+                required>
+        </div>
+
+        <div class="input-box">
+            <i class="fa fa-lock"></i>
+            <input
+                type="password"
+                id="signupPassword"
+                placeholder="Password"
+                required>
+        </div>
+
+        <button type="submit" class="submit-btn">
+            Sign Up
+        </button>
+
+        <p>
+            Already have an account?
+            <span class="switchLogin">Login</span>
+        </p>
+
+    </form>
+
+</section>
+
+<script src="login.js"></script>
+
+</body>
+</html>
