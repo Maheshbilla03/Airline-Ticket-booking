@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Flyingo Travel</title>
+
+<link rel="stylesheet" href="dashboard.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header -->
+
+<header>
+
+<div class="logo">
+    <a href="index.html">
+        <i class="fa-solid fa-plane"></i>
+        <span>Stackly</span>
+    </a>
+</div>
+<nav id="nav">
+
+<a href="dashboard.html">Home</a>
+<a href="about.html">Packages</a>
+<a href="blog.html">My Booking</a>
+<a href="contact.html">Contact</a>
+
+<a href="index.html" class="login-btn">
+    Logout
+</a>
+</nav>
+
+<div class="menu-toggle" id="menuBtn">
+<i class="fa-solid fa-bars"></i>
+</div>
+
+</header>
+
+<section class="hero">
+
+    <div class="hero-slider">
+
+        <div class="slide active">
+            <img src="dubai.webp" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="paris.webp" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="london.webp" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="newyork.webp" alt="">
+        </div>
+
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+        <span class="tagline">
+            ✈ Explore The World With Flyingo
+        </span>
+
+        <h1>
+            Discover Amazing Places Around The World
+        </h1>
+
+        <p>
+            Book flights, hotels and holiday packages with exclusive
+            discounts. Experience unforgettable journeys with Flyingo.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="404.html" class="btn-primary">Book Now</a>
+            <a href="404.html" class="btn-secondary">Explore Tours</a>
+        </div>
+
+        <div class="search-box">
+
+            <input type="text" placeholder="Where do you want to go?">
+
+            <input type="date">
+
+            <input type="date">
+
+            <select>
+                <option>One Way</option>
+                <option>Round Trip</option>
+            </select>
+
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </div>
+
+        <div class="hero-stats">
+
+            <div class="stat-box">
+                <h3>50K+</h3>
+                <p>Happy Travelers</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>120+</h3>
+                <p>Destinations</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>15+</h3>
+                <p>Years Experience</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- My Booking Section -->
+
+<section class="my-booking">
+
+    <div class="section-title">
+        <h2>My Flight Bookings</h2>
+        <p>Manage your upcoming and completed trips.</p>
+    </div>
+
+    <div class="booking-container">
+
+        <div class="booking-card">
+
+            <div class="airline">
+                <img src="image-6.webp" alt="">
+                <div>
+                    <h3>Emirates Airlines</h3>
+                    <span>EK 2025</span>
+                </div>
+            </div>
+
+            <div class="route">
+                <h4>Dubai</h4>
+                <i class="fa-solid fa-plane"></i>
+                <h4>London</h4>
+            </div>
+
+            <div class="details">
+                <p>15 Aug 2026</p>
+                <span>Confirmed</span>
+            </div>
+
+            <button>View Ticket</button>
+
+        </div>
+
+        <div class="booking-card">
+
+            <div class="airline">
+                <img src="image-4.webp" alt="">
+                <div>
+                    <h3>Qatar Airways</h3>
+                    <span>QA 1050</span>
+                </div>
+            </div>
+
+            <div class="route">
+                <h4>Doha</h4>
+                <i class="fa-solid fa-plane"></i>
+                <h4>Paris</h4>
+            </div>
+
+            <div class="details">
+                <p>20 Sep 2026</p>
+                <span>Confirmed</span>
+            </div>
+
+            <button>View Ticket</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Flight Deals Section -->
+
+<section class="flight-deals">
+
+    <div class="section-title">
+        <h2>Best Flight Deals</h2>
+        <p>Grab limited-time discounts on top destinations.</p>
+    </div>
+
+    <div class="flight-grid">
+
+        <div class="flight-card">
+            <img src="dubai.webp" alt="">
+            <div class="flight-content">
+                <h3>Dubai</h3>
+                <p>Starting From</p>
+                <h4>$399</h4>
+                <button>Book Flight</button>
+            </div>
+        </div>
+
+        <div class="flight-card">
+            <img src="paris.webp" alt="">
+            <div class="flight-content">
+                <h3>Paris</h3>
+                <p>Starting From</p>
+                <h4>$499</h4>
+                <button>Book Flight</button>
+            </div>
+        </div>
+
+        <div class="flight-card">
+            <img src="newyork.webp" alt="">
+            <div class="flight-content">
+                <h3>Maldives</h3>
+                <p>Starting From</p>
+                <h4>$599</h4>
+                <button>Book Flight</button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- Popular Destinations -->
+<section class="destinations">
+
+    <div class="section-title">
+        <span>Explore The World</span>
+        <h2>Popular Destinations</h2>
+        <p>Discover amazing destinations and unforgettable travel experiences.</p>
+    </div>
+
+    <div class="destination-grid">
+
+        <div class="destination-card">
+            <img src="paris.webp" alt="Paris">
+
+            <div class="destination-content">
+                <div class="location">
+                    <h3>Paris</h3>
+                    <span><i class="fa-solid fa-star"></i> 4.9</span>
+                </div>
+
+                <p>The city of love, culture, and iconic landmarks.</p>
+
+                <div class="destination-footer">
+                    <span>From $799</span>
+                    <a href="404.html">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="dubai.webp" alt="Dubai">
+
+            <div class="destination-content">
+                <div class="location">
+                    <h3>Dubai</h3>
+                    <span><i class="fa-solid fa-star"></i> 4.8</span>
+                </div>
+
+                <p>Luxury shopping, desert adventures and skyscrapers.</p>
+
+                <div class="destination-footer">
+                    <span>From $599</span>
+                    <a href="404.html">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="london.webp" alt="London">
+
+            <div class="destination-content">
+                <div class="location">
+                    <h3>London</h3>
+                    <span><i class="fa-solid fa-star"></i> 4.7</span>
+                </div>
+
+                <p>Historic attractions and vibrant city life.</p>
+
+                <div class="destination-footer">
+                    <span>From $699</span>
+                    <a href="404.html">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="newyork.webp" alt="Maldives">
+
+            <div class="destination-content">
+                <div class="location">
+                    <h3>Maldives</h3>
+                    <span><i class="fa-solid fa-star"></i> 5.0</span>
+                </div>
+
+                <p>Crystal-clear waters and luxury island resorts.</p>
+
+                <div class="destination-footer">
+                    <span>From $899</span>
+                    <a href="404.html">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Why Choose Us -->
+
+<section class="why-us">
+
+    <div class="section-title">
+        <h2>Why Choose Flyingo?</h2>
+        <p>We make your travel experience simple, affordable and memorable.</p>
+    </div>
+
+    <div class="why-grid">
+
+        <div class="why-card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>Secure Booking</h3>
+            <p>Safe and secure payment system for every booking.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-headset"></i>
+            <h3>24/7 Support</h3>
+            <p>Dedicated travel experts available anytime.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-tags"></i>
+            <h3>Best Prices</h3>
+            <p>Exclusive discounts on flights and hotels.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-earth-americas"></i>
+            <h3>Worldwide Travel</h3>
+            <p>Explore more than 120+ destinations worldwide.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Special Offers -->
+
+<section class="offers">
+
+    <div class="offer-content">
+
+        <span>Limited Time Offer</span>
+
+        <h2>Get 40% OFF On Dubai Packages</h2>
+
+        <p>
+            Book your dream vacation today and enjoy exclusive
+            flight and hotel discounts.
+        </p>
+
+        <a href="#" class="offer-btn">
+            Book Offer
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- Travel Statistics -->
+
+<section class="stats">
+
+    <div class="stat">
+        <h2>50K+</h2>
+        <p>Happy Travelers</p>
+    </div>
+
+    <div class="stat">
+        <h2>120+</h2>
+        <p>Destinations</p>
+    </div>
+
+    <div class="stat">
+        <h2>15+</h2>
+        <p>Years Experience</p>
+    </div>
+
+    <div class="stat">
+        <h2>500+</h2>
+        <p>Travel Partners</p>
+    </div>
+
+</section>
+<!-- Footer -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2>✈ Stackly</h2>
+            <p>
+                Book affordable flights worldwide. Experience safe travel,
+                instant booking, and 24/7 customer support.
+            </p>
+
+            <div class="social-icons">
+                <a href="404.html"><i class="fab fa-facebook-f"></i></a>
+                <a href="404.html"><i class="fab fa-instagram"></i></a>
+                <a href="404.html"><i class="fab fa-twitter"></i></a>
+                <a href="404.html"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">pakages</a></li>
+                <li><a href="blog.html">My Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h3>Top Destinations</h3>
+            <ul>
+                <li><a href="404.html">Dubai</a></li>
+                <li><a href="404.html">London</a></li>
+                <li><a href="404.html">Paris</a></li>
+                <li><a href="404.html">New York</a></li>
+                <li><a href="404.html">Singapore</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h3>Book Flight</h3>
+
+            <a href="login.html" class="footer-btn btn-flight">
+                Book Flight
+            </a>
+
+            <a href="404.html" class="footer-btn btn-ticket">
+                Buy Ticket
+            </a>
+
+            <a href="contact.html" class="footer-btn btn-support">
+                Support Team
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 FlySmart Travel. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+
+  <script src="dashboard.js"></script>
+
+</body>
+</html>
